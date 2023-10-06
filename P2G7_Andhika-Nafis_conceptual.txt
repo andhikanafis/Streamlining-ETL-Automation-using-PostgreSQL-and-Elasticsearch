@@ -1,0 +1,17 @@
+1. Jelaskan apa yang dimaksud dengan NoSQL menggunakan pemahaman yang kalian ketahui !
+NoSQL atau Not Only SQL adalah Non-Tabular Database, dimana NoSQL ini memiliki beberapa variety data, yaitu:
+    1. Dokumen Database: Menyimpan data dalam bentuk json, karena dalam bentuk json maka membuat database ini flexibel.
+    2. Key-Value Database: Sesuai nama, key-value database ini cuma berisi key (seperti primary key) dan value (data nya, bisa string, json), karena menyimpan data di memory, maka menawarkan speed yang cepat.
+    3. Search Database: Jika ingin menggunakan data ini, pastikan data sudah banyak, karena search database dibuat untuk menghandle data yang kompleks.Sudah membuat index secara automatis, dan juga punya fitur text analysis dimana dia bisa tau mana bagian text yang penting, dan mana yang tidak terlalu penting 
+
+2. Jelaskan kapan harus menggunakan NoSQL dan Relational Database Management System !
+    1. NoSQL: 
+        - Dipakai jika bentukan data nya itu dictionary,json, atau semi-structured
+        - Jika File nya kompleks / memiliki size yang besar
+    2. Relational Database Management System:
+        - Jika datanya terstruktur
+        - Jika file nya tidak terlalu kompleks, dan memiliki size yang kecil sampai sedang.
+
+3. Sebutkan contoh 2 tools/platform NoSQL selain ElasticSearch beserta keunggulan tools/platform tersebut !
+    1. MongoDB:  MongoDB menyediakan berbagai fitur untuk manajemen data seperti index, replikasi, dan sharding
+    2. Redis: Karena Redis menyimpan data nya di memori, maka Redis sangat cocok untuk penyimpanan data berkinerja tinggi
